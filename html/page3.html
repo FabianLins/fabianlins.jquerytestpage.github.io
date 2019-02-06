@@ -5,13 +5,14 @@
 	<meta name="description" content="A jQuery test page" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
-	<title>Page 2 - A jQuery test page</title>
+	<title>Page 3 - A jQuery test page</title>
 	<meta name="author" content="">
 	<link href="https://fonts.googleapis.com/css?family=Pavanam" rel="stylesheet">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/animate.css">
 	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="../js/jquery_2.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery_3.js"></script>
 </head>
 
 <body>
@@ -34,12 +35,12 @@
 		<div class="content-box">
 		
 			<div id="welcome_headline_box" class="headline">
-				<h1 class="fade_in_class">Welcome</h1>
+				<h1 id="page3_welcome">Welcome </h1>
 			</div>
 			
 			<div class="text_box">
-				<p class="short_text" id="welcome_text">
-					Welcome to the second page. Feel free to choose your favorite picture below.
+				<p class="short_text" id="page3_welcome_text">
+					Welcome to the last page. Below you can see your favorite picture(s) that you have just selected, 
 				</p>
 			</div>	
 
@@ -47,25 +48,21 @@
 			</div>			
 			
 			<div class="headline">
-				<h1>Choose your favorite picture</h1>
+				<h1>Your favorite picture</h1>
 			</div>
 			
 			<div class="text_box">
 				<p class="short_text" id="gallery_text">
-					Please select your favorite picture(s). You have to click on the picture to select it. You can select up to two pictures. If you would like to remove a picture, just click on it again.
+					Here you can see your favorite picture(s). If you like to change them, feel free to go back to the previous page.
 				</p>
 			</div>
 	
 			<div id="gallery_pictures_box">
-				<img id="gallery_picture1" class="gallery_pictures float_left pointer" src="../img/page2/picture1.jpg" alt="Picture 1">
-				<img id="gallery_picture2" class="gallery_pictures float_left pointer" src="../img/page2/picture2.jpg" alt="Picture 2">
-				<img id="gallery_picture3" class="gallery_pictures float_left pointer" src="../img/page2/picture3.jpg" alt="Picture 3">
-				<img id="gallery_picture4" class="gallery_pictures float_left pointer" src="../img/page2/picture4.jpg" alt="Picture 4">
+				<img id="gallery_picture1" class="gallery_pictures float_left none" src="../img/page2/picture1.jpg" alt="Picture 1">
+				<img id="gallery_picture2" class="gallery_pictures float_left none" src="../img/page2/picture2.jpg" alt="Picture 2">
+				<img id="gallery_picture3" class="gallery_pictures float_left none" src="../img/page2/picture3.jpg" alt="Picture 3">
+				<img id="gallery_picture4" class="gallery_pictures float_left none" src="../img/page2/picture4.jpg" alt="Picture 4">
 				<div class="clear"></div>
-			</div>
-
-			<div id="image_counter_box">
-					<p class="big_text" id="image_counter">Images selected: </p>
 			</div>
 			
 			<div class="small-padding">
@@ -75,18 +72,18 @@
 			</div>	
 			
 			<div class="headline">
-				<h1>Continue</h1>
+				<h1>Thanks</h1>
 			</div>
 			
 			<div class="text_box">
 				<p class="short_text">
-					After you have entered your name, feel free to continue.
+					Thanks for filling out everything. I hope you have had a good time visisting my jQuery test page.
 				</p>
 			</div>
 			
 			<div id="buttons">
-				<button type="button" id="page2_previous" class="button_active">Previous</button>
-				<button type="button" id="page2_next" class="button_active">Next</button>
+				<button type="button" id="page3_previous" class="button_active">Previous</button>
+				<button type="button" id="page3_next" class="button_unactive">Next</button>
 			</div>
 
 			<div class="bottom-padding">
